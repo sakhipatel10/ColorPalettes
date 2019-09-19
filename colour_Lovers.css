@@ -1,0 +1,133 @@
+/*  BODY  */
+body {
+    background: #1089FF; 
+    background: -webkit-linear-gradient(to right, orange, orange 60%, cyan); 
+    background: linear-gradient(to right, orange, orange 50%, cyan); 
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    padding: 0 5em 5em 5em;
+}
+
+@media (max-width: 636px){
+    body{
+      padding: 0 1em 1em 1em;  
+    }
+}
+
+h1 {
+    font-weight: lighter;
+    font-size : 50px;
+}
+
+
+/*  Update Time  */
+#timeupdate {
+    text-align: right;
+    font-size: small;
+    font-weight: bold;
+    padding: 3em;
+}
+
+/*  COLOR PALETTES  */
+
+@media (max-width: 1960px) and (min-width: 636px){ 
+li {
+    list-style-type: none;
+    float: left;
+    width: 50%;
+}
+}
+
+@media (max-width: 636px) {
+    .li { 
+        list-style-type: none;
+        display: block;  
+        padding: 0;      
+        margin: 0;       
+        width: 100%; 
+    
+    } 
+}
+
+
+/*  Individual palette  */
+.title {
+    font-weight: normal;
+    text-transform: uppercase;  
+}
+
+.visits {
+    background-color: #E86100;
+    padding: 5px;
+    border-radius: 5%;
+}
+
+.results_main{
+    align-items: center;
+    padding: 1.5rem 3rem
+    text-decoration: none; 
+}
+
+@media (max-width: 636px){
+.results_fig {
+ 
+    float:right;
+    overflow: hidden;
+    height: 5.8rem;
+    width: 30%;
+    margin-right: 0;
+    position: relative;  
+}   
+}
+
+
+@media (max-width: 636px){
+    .results_fig img {
+        width: 10;
+    }}
+ 
+@media (max-width: 1960px) and (min-width: 636px){ 
+    .results_fig {
+    flex: 0 0 5.5rem;
+    float:right;
+    overflow: hidden;
+    height: 7.5rem;
+    width: 50%;
+    margin-right: 2rem;
+    position: relative;
+    backface-visibility: hidden; 
+}
+}
+
+@media (max-width: 1960px) and (min-width: 946px){
+.results_data{
+    float: left;
+    font-size: 15px;
+    width:30%
+}
+}
+
+
+@media (max-width: 946px){
+.results_data{
+    float: left;
+    font-size: 15px;
+    width:50%
+}
+}
+
+  .results_name{
+    font-size: 1.1rem;
+    color: #FFFF;
+    margin-bottom: .3rem; 
+}
+
+
+  .results_author {
+    font-size: 0.9rem;
+    color: #968B87;
+   
+    font-weight: 600; 
+}
+
+
